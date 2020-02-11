@@ -2,6 +2,11 @@
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "vim.easymotion": true,
+    "vim.hlsearch": true,
+    "vim.leader": ",",
+    "vim.useSystemClipboard": true,
+    "vim.searchHighlightColor": "#ff7b00a1",
     //"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
     "terminal.integrated.shell.windows": "c:\\cygwin\\bin\\bash.exe",
     "terminal.integrated.env.windows": {
@@ -12,6 +17,13 @@
         {
             "before":  ["j", "k"],
             "after": ["<Esc>"]
+        }
+    ],
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["s"],
+            "after": [":","w","<Enter>"]
         }
     ]
 }
