@@ -7,11 +7,14 @@
     "vim.leader": ",",
     "vim.useSystemClipboard": true,
     "vim.searchHighlightColor": "#ff7b00a1",
-    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "http.proxy": "http://proxy.bloomberg.com:81",
+    "http.proxyStrictSSL": false,
+    "terminal.integrated.shell.linux": "C:\\WINDOWS\\System32\\wsl.exe",
     "terminal.integrated.shell.windows": "c:\\cygwin\\bin\\bash.exe",
     "terminal.integrated.env.windows": {
         "CHERE_INVOKING": "1"
     },
+
     "terminal.integrated.shellArgs.windows": [ "-l"],
     "vim.insertModeKeyBindings": [
         {
@@ -23,7 +26,7 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["s"],
-            "after": [":","w","<Enter>"]
+            "commands": [":w"]
         }
     ]
 }
