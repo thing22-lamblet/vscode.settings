@@ -1,0 +1,17 @@
+{
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "terminal.integrated.shell.windows": "c:\\cygwin\\bin\\bash.exe",
+    "terminal.integrated.env.windows": {
+        "CHERE_INVOKING": "1"
+    },
+    "terminal.integrated.shellArgs.windows": [ "-l"],
+    "vim.insertModeKeyBindings": [
+        {
+            "before":  ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ]
+}
