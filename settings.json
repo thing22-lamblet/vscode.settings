@@ -28,5 +28,7 @@
             "before": ["s"],
             "commands": [":w"]
         }
-    ]
+    ],
+    "vim.cursorStylePerMode.insert": "block-outline",
+    "vim.cursorStylePerMode.normal": "block"
 }
