@@ -9,6 +9,7 @@
     "vim.searchHighlightColor": "#ff7b00a1",
     "http.proxy": "http://proxy.bloomberg.com:81",
     "http.proxyStrictSSL": false,
+    "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.shell.linux": "C:\\WINDOWS\\System32\\wsl.exe",
     "terminal.integrated.shell.windows": "c:\\cygwin\\bin\\bash.exe",
     //"terminal.integrated.shell.windows": "c:\\Windows\\System32\\Bash.exe",
@@ -35,5 +36,6 @@
         }
     ],
     "vim.cursorStylePerMode.insert": "block-outline",
-    "vim.cursorStylePerMode.normal": "block"
+    "vim.cursorStylePerMode.normal": "block",
+    "workbench.colorTheme": "Light High Contrast Theme"
 }
