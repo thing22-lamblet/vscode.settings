@@ -7,5 +7,15 @@
     {
         "key": "ctrl+a k",
         "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "ctrl+a h",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+a l",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
     }
 ]
