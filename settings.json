@@ -11,6 +11,7 @@
     "http.proxyStrictSSL": false,
     "terminal.integrated.shell.linux": "C:\\WINDOWS\\System32\\wsl.exe",
     "terminal.integrated.shell.windows": "c:\\cygwin\\bin\\bash.exe",
+    //"terminal.integrated.shell.windows": "c:\\Windows\\System32\\Bash.exe",
     "terminal.integrated.env.windows": {
         "CHERE_INVOKING": "1"
     },
