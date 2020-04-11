@@ -1,46 +1,52 @@
 {
-    "files.eol": "\n",
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "vim.easymotion": true,
-    "vim.hlsearch": true,
-    "vim.leader": ",",
-    "vim.useSystemClipboard": true,
-    "vim.searchHighlightColor": "#ff7b00a1",
-    "http.proxy": "http://proxy.bloomberg.com:81",
-    "http.proxyStrictSSL": false,
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
-    //"terminal.integrated.shell.windows": "c:\\cygwin\\bin\\bash.exe",
-    //"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "terminal.integrated.env.windows": {
-        "CHERE_INVOKING": "1"
-    },
-    "workbench.colorCustomizations": {
-        "window.activeBorder":"#00ff00",
-        "window.inactiveBorder": "#ff0000"
-    },
-
-    "python.jediEnabled": true,
-
-    "terminal.integrated.shellArgs.windows": [ "-l"],
-    "vim.insertModeKeyBindings": [
-        {
-            "before":  ["j", "k"],
-            "after": ["<Esc>"]
-        }
-    ],
-
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": ["s"],
-            "commands": [":w"]
-        }
-    ],
-    "vim.cursorStylePerMode.insert": "block-outline",
-    "vim.cursorStylePerMode.normal": "block",
-    "workbench.colorTheme": "Shades of Purple",
-    "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "none",
-    "workbench.iconTheme": "material-icon-theme"
+	"editor.minimap.enabled": false,
+	"editor.renderWhitespace": "none",
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"http.proxy": "http://proxy.bloomberg.com:81",
+	"http.proxyStrictSSL": false,
+	"python.Enabled": true,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.env.windows": {
+		"CHERE_INVOKING": "1"
+	},
+	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+	"terminal.integrated.shellArgs.windows": [
+		"-l"
+	],
+	"vim.cursorStylePerMode.insert": "block-outline",
+	"vim.cursorStylePerMode.normal": "block",
+	"vim.easymotion": true,
+	"vim.hlsearch": true,
+	"vim.insertModeKeyBindings": [
+		{
+			"before": [
+				"j",
+				"k"
+			],
+			"after": [
+				"<Esc>"
+			]
+		}
+	],
+	"vim.leader": ",",
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"s"
+			],
+			"commands": [
+				":w"
+			]
+		}
+	],
+	"vim.searchHighlightColor": "#ff7b00a1",
+	"vim.useSystemClipboard": true,
+	"workbench.colorCustomizations": {
+		"window.activeBorder": "#00ff00",
+		"window.inactiveBorder": "#ff0000"
+	},
+	"workbench.colorTheme": "Shades of Purple",
+	"workbench.iconTheme": "material-icon-theme"
 }
