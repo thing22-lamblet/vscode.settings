@@ -39,7 +39,7 @@
     ],
     "vim.cursorStylePerMode.insert": "block-outline",
     "vim.cursorStylePerMode.normal": "block",
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorTheme": "Shades of Purple",
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "none"
 }
