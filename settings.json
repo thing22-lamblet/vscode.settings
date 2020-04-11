@@ -41,5 +41,6 @@
     "vim.cursorStylePerMode.normal": "block",
     "workbench.colorTheme": "Shades of Purple",
     "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "none"
+    "editor.renderWhitespace": "none",
+    "workbench.iconTheme": "material-icon-theme"
 }
