@@ -21,6 +21,8 @@
         "window.inactiveBorder": "#ff0000"
     },
 
+    "python.jediEnabled": true,
+
     "terminal.integrated.shellArgs.windows": [ "-l"],
     "vim.insertModeKeyBindings": [
         {
@@ -37,5 +39,7 @@
     ],
     "vim.cursorStylePerMode.insert": "block-outline",
     "vim.cursorStylePerMode.normal": "block",
-    "workbench.colorTheme": "Quiet Light"
+    "workbench.colorTheme": "Quiet Light",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none"
 }
