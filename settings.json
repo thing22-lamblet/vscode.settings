@@ -1,23 +1,66 @@
 {
+	"breadcrumbs.enabled": true,
+	"editWithShell.processEntireTextIfNoneSelected": true,
+	"editWithShell.shell.linux": "/bin/bash",
+	"editWithShell.shell.osx": "/bin/bash",
+	"editor.cursorStyle": "block",
+	"editor.dragAndDrop": false,
+	"editor.emptySelectionClipboard": false,
+	"editor.folding": false,
 	"editor.minimap.enabled": false,
+	"editor.mouseWheelZoom": true,
+	"editor.renderControlCharacters": false,
 	"editor.renderWhitespace": "none",
+	"editor.wordWrap": "bounded",
+	"editor.wordWrapColumn": 200,
+	"files.associations": {
+		"*taskrc": "shellscript",
+		"*.jrnl": "markdown"
+	},
 	"files.eol": "\n",
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
-	"http.proxy": "http://proxy.bloomberg.com:81",
-	"http.proxyStrictSSL": false,
-	"python.Enabled": true,
+	"git.ignoreMissingGitWarning": true,
+	"gitlens.currentLine.enabled": false,
+	"gitlens.hovers.annotations.changes": false,
+	"gitlens.hovers.annotations.enabled": false,
+	"gitlens.hovers.avatars": false,
+	"gitlens.hovers.currentLine.changes": false,
+	"gitlens.hovers.currentLine.details": false,
+	"gitlens.hovers.currentLine.enabled": false,
+	"gitlens.hovers.enabled": false,
+	"gitlens.mode.statusBar.enabled": false,
+	"gitlens.statusBar.enabled": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"materialTheme.accent": "Orange",
+	"python.jediEnabled": true,
+	"remote.WSL.debug": true,
+	"remote.extensionKind": {
+		"ms-azuretools.vscode-docker": "workspace"
+	},
+	"telemetry.enableTelemetry": false,
 	"terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.env.windows": {
 		"CHERE_INVOKING": "1"
 	},
-	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+	"terminal.integrated.scrollback": 3000,
+	"terminal.integrated.shell.linux": "/bin/bash",
+	"terminal.integrated.shell.windows": "c:\\cygwin\\bin\\bash.exe",
+	"terminal.integrated.shellArgs.linux": [
+		"--rcfile",
+		"~/.wsl.rc"
+	],
 	"terminal.integrated.shellArgs.windows": [
 		"-l"
 	],
 	"vim.cursorStylePerMode.insert": "block-outline",
 	"vim.cursorStylePerMode.normal": "block",
 	"vim.easymotion": true,
+	"vim.handleKeys": {
+		"<C-d>": true,
+		"<C-w>": false
+	},
 	"vim.hlsearch": true,
 	"vim.insertModeKeyBindings": [
 		{
@@ -39,14 +82,66 @@
 			"commands": [
 				":w"
 			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"1"
+			],
+			"commands": [
+				"editor.action.commentLine"
+			]
+		},
+		{
+			"before": [
+				"<leader>",
+				"n"
+			],
+			"commands": [
+				"workbench.action.quickOpen"
+			]
+		},
+		{
+			"before": [
+				"="
+			],
+			"commands": [
+				"workbench.action.tasks.build"
+			]
+		},
+		{
+			"before": [
+				"j"
+			],
+			"after": [
+				"g",
+				"j"
+			]
+		},
+		{
+			"before": [
+				"k"
+			],
+			"after": [
+				"g",
+				"k"
+			]
 		}
 	],
 	"vim.searchHighlightColor": "#ff7b00a1",
 	"vim.useSystemClipboard": true,
+	"vscode-neovim.neovimPath": "c:\\tools\\neovim\\Neovim\\bin\\nvim.exe",
+	"window.zoomLevel": 1,
+	"wordcounter.count_chars": false,
+	"wordcounter.count_paragraphs": false,
+	"wordcounter.include_eol_chars": false,
+	"wordcounter.wpm": 110,
 	"workbench.colorCustomizations": {
 		"window.activeBorder": "#00ff00",
 		"window.inactiveBorder": "#ff0000"
 	},
 	"workbench.colorTheme": "Shades of Purple",
-	"workbench.iconTheme": "material-icon-theme"
+	"workbench.fontAliasing": "true",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.sideBar.location": "left"
 }
