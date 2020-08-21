@@ -3,6 +3,11 @@
 	"editWithShell.processEntireTextIfNoneSelected": true,
 	"editWithShell.shell.linux": "/bin/bash",
 	"editWithShell.shell.osx": "/bin/bash",
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": false,
+		"strings": false
+	},
 	"editor.cursorStyle": "block",
 	"editor.dragAndDrop": false,
 	"editor.emptySelectionClipboard": false,
@@ -131,7 +136,7 @@
 	"vim.searchHighlightColor": "#ff7b00a1",
 	"vim.useSystemClipboard": true,
 	"vscode-neovim.neovimPath": "c:\\tools\\neovim\\Neovim\\bin\\nvim.exe",
-	"window.zoomLevel": 1,
+	"window.zoomLevel": 0,
 	"wordcounter.count_chars": false,
 	"wordcounter.count_paragraphs": false,
 	"wordcounter.include_eol_chars": false,
